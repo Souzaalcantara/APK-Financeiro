@@ -1,0 +1,21 @@
+
+---
+
+## 🧠 PARTE 2 – MODELO VISUAL PARA AUTOMAÇÃO
+
+```markdown
+# Estrutura para Automatizar
+
+Entrada: Documento com texto misto
+
+Lógica:
+- Detectar blocos por prefixo (IA:, Usuário:, def, Passo, etc.)
+- Classificar: Diálogo / Código / Instrução
+- Organizar em seções
+- Exportar como `.md`, `.docx`, `.pdf`
+- Opcional: subir direto para GitHub via API
+
+Tecnologias:
+- Python (Pandas, Regex)
+- OpenAI API (classificação e segmentação)
+- Streamlit (UI para arrastar e soltar arquivos)

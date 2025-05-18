@@ -1,0 +1,5 @@
+
+## Buildozer (APK)
+```bash
+buildozer init
+buildozer android debug deploy run
